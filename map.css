@@ -1,0 +1,68 @@
+*{
+  font-family: 'VT323' ;
+}
+
+body{
+  margin-left: 360px;
+}
+
+#map{
+  background: url('http://pwo-wiki.info/images/4/46/Grass_comparison.png');
+  background-size: contain;
+  width:1000px;
+  height:800px;
+}
+
+#upButton {
+  top:0;
+  left:50%;
+  right:50%;
+  position:fixed;
+  display:flex;
+  justify-content: center;
+}
+
+.button{
+  background-color: grey;
+  width:100px;
+  height:100px;
+  color: white;
+  font-size: 50px;
+}
+
+#ash {
+  background: url('https://i.imgur.com/bFUp1vz.png');
+  background-size: cover;
+  position: relative;
+  width:100px;
+  height:100px;
+  z-index:1;
+}
+
+#david {
+  background: url('http://i.imgur.com/Z77zcrh.jpg');
+  position:relative;
+  background-size: cover;
+  margin-top: 100px;
+  margin-left:100px;
+  width:100px;
+  height:100px;
+}
+
+#rightButton {
+  float:right;
+	top:45%;
+  position:fixed;
+  right:0;
+	display: flex;
+	align-items: center;
+}
+
+#downButton {
+  position:fixed;
+  bottom:0;
+  right:50%;
+  left:50%;
+  display: flex;
+  justify-content: center;
+}
